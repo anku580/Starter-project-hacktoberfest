@@ -15,5 +15,21 @@
   font-size: 40px;
 }
 body {
-    background-color: lightgray;
+    background-color: black;
+}
+*{
+  color: white;
+}
+a{
+  color: yellow;
+}
+a:hover{
+  color: orangered;
+  text-decoration: none;
+}
+.git-header:hover{
+  font-size: 50px;
+}
+.linkedin-header:hover {
+  font-size: 50px;
 }
