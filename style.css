@@ -9,27 +9,42 @@
   font-weight: 600;
 }
 .git-header {
-  font-size: 40px;
+  font-size: 34px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .linkedin-header {
-  font-size: 40px;
+  font-size: 34px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 body {
-    background-color: black;
+    background-color: white;
 }
-*{
-  color: white;
+
+
+.fa
+{
+  font-size: 120px !important;
 }
-a{
-  color: yellow;
+.fa-linkedin-square
+{
+  color: #007BB5;
 }
-a:hover{
-  color: orangered;
-  text-decoration: none;
+
+.container-fluid
+{
+  margin-top: 100px !important;
 }
-.git-header:hover{
-  font-size: 50px;
+.border
+{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.linkedin-header:hover {
-  font-size: 50px;
+
+.margin-head h3
+{
+  margin-bottom: 50px;
 }
