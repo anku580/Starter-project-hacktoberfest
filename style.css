@@ -1,12 +1,14 @@
 .nav {
-  background-color: blue;
-  height: 50px;
+  background-color: rgb(21, 21, 180);
+  height: 70px;
 }
 .nav-text {
   position: absolute;
   margin: 10px;
-  color: yellow;
+  color: rgb(230, 16, 183);
   font-weight: 600;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
 }
 .git-header {
   font-size: 40px;
