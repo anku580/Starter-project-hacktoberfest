@@ -17,7 +17,7 @@ This repository is basically about adding the github username link as well as th
 * Confirm the pull request and that's it!
 
 
-## Screen Shoe
+## Screenshot
 <img src="/ss.png" alt="">
 
 
