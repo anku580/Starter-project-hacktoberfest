@@ -1,19 +1,47 @@
-.nav {
-  background-color: blue;
-  height: 50px;
-}
-.nav-text {
-  position: absolute;
-  margin: 10px;
-  color: yellow;
-  font-weight: 600;
-}
-.git-header {
-  font-size: 40px;
-}
-.linkedin-header {
-  font-size: 40px;
-}
 body {
-    background-color: lightgray;
+  background: #eee;
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+header {
+  background: #563d7c;
+  padding: 2em 1em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2em;
+}
+header h1 {
+  font-weight: 200;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  width: 70rem;
+  height: auto;
+}
+.card img {
+  width: 15%;
+  height: 20%;
+}
+.list {
+  align-items: flex-start;
+}
+
+[class*="row"] {
+  margin-bottom: 1em;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+[class*="col-"] {
+  background: #efefef;
+  border: 1px solid #ddd;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 100%;
 }
