@@ -1,19 +1,27 @@
 .nav {
-  background-color: blue;
-  height: 50px;
+    background-color: blue;
+    height: 50px;
 }
+
 .nav-text {
-  position: absolute;
-  margin: 10px;
-  color: yellow;
-  font-weight: 600;
+    position: absolute;
+    margin: 10px;
+    color: yellow;
+    font-weight: 600;
 }
+
 .git-header {
-  font-size: 40px;
+    font-size: 40px;
 }
+
 .linkedin-header {
-  font-size: 40px;
+    font-size: 40px;
 }
+
 body {
-    background-color: lightgray;
+    background-color: white;
+}
+
+.section1 {
+    margin-top: 15%;
 }
