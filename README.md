@@ -22,6 +22,9 @@ This repository is basically about adding the github username link as well as th
 
 <!-- [![Hacktoberfest 2019 logo](https://i.ibb.co/4FjRdbH/Logo-Sponsors-Light.png)](https://hacktoberfest.digitalocean.com/) -->
 
+## You can view the website
+To view the website [click here](https://anku580.github.io/Starter-project-hacktoberfest/)
+
 ## Official website for registration and tips on how to get started
 
 - [Hacktoberfest Official Website](https://hacktoberfest.digitalocean.com/)
