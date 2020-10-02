@@ -73,3 +73,8 @@ body {
 {
   margin-bottom: 50px;
 }
+
+.dark-mode {
+  background-color: #181616;
+  color: white;
+}
