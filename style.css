@@ -1,50 +1,67 @@
+li {
+  list-style-type: none;
+  padding: 5px;
+}
+
 .nav {
   background-color: blue;
   height: 50px;
 }
+
 .nav-text {
   position: absolute;
   margin: 10px;
   color: yellow;
   font-weight: 600;
 }
+
 .git-header {
   font-size: 34px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .linkedin-header {
   font-size: 34px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 body {
-    background-color: white;
+  background-color: white;
 }
 
 
-.fa
-{
+.fa {
   font-size: 120px !important;
 }
-.fa-linkedin-square
-{
+
+.fa-linkedin-square {
   color: #007BB5;
 }
 
-.container-fluid
-{
+.container-fluid {
   margin-top: 100px !important;
 }
-.border
-{
+
+.border {
   border: 1px solid black;
   border-radius: 10px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.margin-head h3
-{
+.margin-head h3 {
   margin-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(10, 59, 82);
+  height: 40px;
+}
+
+footer p {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
 }
