@@ -52,3 +52,21 @@ body {
   color: #9C4486;
   font-size: 4.2em;
 }
+#github{
+  background:#f1f7fa;
+}
+#linkdin{
+  background:#f1f7fa;
+}
+#github:hover {
+  transform: scale(1.1);
+  z-index: 4;
+  box-shadow: 0 6px 9px #444;
+  color: #000;
+}
+#linkdin:hover {
+  transform: scale(1.1);
+  z-index: 4;
+  box-shadow: 0 6px 9px #444;
+  color: #000;
+}
