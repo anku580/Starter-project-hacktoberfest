@@ -1,12 +1,12 @@
-.nav {
-  background-color: blue;
-  height: 50px;
+nav {
+  height: 130px !important;
+  padding: 63px;
 }
-.nav-text {
-  position: absolute;
-  margin: 10px;
-  color: yellow;
-  font-weight: 600;
+
+.navbar{
+  padding: 0 578px 0 0;
+  background-color: #F1F7FA !important;
+  border-bottom: 2px solid #5b6987;
 }
 .git-header {
   font-size: 34px;
@@ -46,5 +46,9 @@ body {
 
 .margin-head h3
 {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  margin-bottom: 99px;
+  margin-top: -31px;
+  color: #9C4486;
+  font-size: 4.2em;
 }
