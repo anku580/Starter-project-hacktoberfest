@@ -27,6 +27,12 @@ nav {
   color:  #F1F7FA !important;
 }
 
+.navbar-brand{
+  position: relative;
+  left: 4%;
+  padding: 10px;
+}
+
 .git-header {
   font-size: 34px;
   margin-top: 20px;
