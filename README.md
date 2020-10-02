@@ -1,9 +1,9 @@
-# Start Hacktober fest with this Repository
+# Start Hacktober fest with this Repository 🖥️
 
 This repository is basically about adding the github username link as well as the linkedin profile(if you have) by creating a commit.
 
 
-## How to create a Pull Request
+## How to create a Pull Request 🔗
 
 * Click on the fork on the top to fork this repo.
 * Go to your repo where you fork the project.
@@ -17,12 +17,14 @@ This repository is basically about adding the github username link as well as th
 * Confirm the pull request and that's it!
 
 
-## Screenshot
+## Screenshot 📟
+
+#### Main Page 
 <img src="/ss.png" alt="">
 
 
 
-### You can also contribute to this repository for hacktoberfest
+### You can also contribute to this repository for hacktoberfest 2020 
 
 [Java Algorithms](https://github.com/anku580/Java-Algorithms/issues)
 
