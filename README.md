@@ -1,9 +1,37 @@
-# Start Hacktober fest with this Repository
+# Start Hacktober fest with this Repository 🖥️
+
+<p align="center">
+<a href="https://github.com/anku580/Starter-project-hacktoberfestnetwork/members">
+      <img alt="Forks" src="https://img.shields.io/github/forks/anku580/Starter-project-hacktoberfest?style=for-the-badge" />
+    </a>
+    <a href="https://github.com/anku580/Starter-project-hacktoberfestissues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/anku580/Starter-project-hacktoberfest?style=for-the-badge" />
+    </a>
+</p>
 
 This repository is basically about adding the github username link as well as the linkedin profile(if you have) by creating a commit.
 
+> [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a chance to level up your coding skills and get small goodies in reward.
 
-## How to create a Pull Request
+<br />
+<p align="center">
+  <a href="https://hacktoberfest.digitalocean.com/">
+    <img src="https://i.ibb.co/4FjRdbH/Logo-Sponsors-Light.png" alt="Logo">
+  </a>
+</p>
+
+<!-- [![Hacktoberfest 2019 logo](https://i.ibb.co/4FjRdbH/Logo-Sponsors-Light.png)](https://hacktoberfest.digitalocean.com/) -->
+
+## You can view the website
+To view the website [click here](https://anku580.github.io/Starter-project-hacktoberfest/)
+
+## Official website for registration and tips on how to get started
+
+- [Hacktoberfest Official Website](https://hacktoberfest.digitalocean.com/)
+- [Hacktoberfest Tutorial](https://youtu.be/0mjJS1Y8wrI) - Introduction to Hacktoberfest
+- [Hacktoberfest Swag List](https://benbarth.github.io/hacktoberfest-swag/) - List of all goodies given away by companies
+
+## How to create a Pull Request 🔗
 
 * Click on the fork on the top to fork this repo.
 * Go to your repo where you fork the project.
@@ -17,12 +45,14 @@ This repository is basically about adding the github username link as well as th
 * Confirm the pull request and that's it!
 
 
-## Screenshot
+## Screenshot 📟
+
+#### Main Page 
 <img src="/ss.png" alt="">
 
 
 
-### You can also contribute to this repository for hacktoberfest
+### You can also contribute to this repository for hacktoberfest 2020 
 
 [Java Algorithms](https://github.com/anku580/Java-Algorithms/issues)
 
