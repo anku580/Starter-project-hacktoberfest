@@ -46,6 +46,13 @@
       </div>
     </nav>
   </header>
+  <div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+  <em>Enable Dark Mode!</em>
+</div>
 
   <div class="container-fluid">
     <!-- Github Usernames -->
@@ -85,6 +92,7 @@
               <li><a href="https://github.com/Vanhsiav-afk" target="blank">Vaishnav Trivedi</a></li>
               <li><a href="https://github.com/hackelman" target="blank">Hackelman</a></li>
               <li><a href="https://github.com/yukebrillianth" target="blank">yukebrillianth</a></li>
+              <li><a href="https://github.com/saiharsha-22" target="blank">Sai Harsha Vardhan</a></li>
               <li><a href="https://github.com/boy-who-codes/" target="blank">Rahul Sinha</a></li>
               <li><a href="https://github.com/devanshuruhela" target="blank">Devanshu Ruhela</a></li>
             </ul>
@@ -136,9 +144,9 @@
               <li><a href="https://www.linkedin.com/in/ayush-garg-5452a2185/" target="blank">Ayush Garg</a></li>
               <li><a href="https://www.linkedin.com/in/vaishnav-trivedi-b25b34146/"target="blank">Vaishnav Trivedi</a></li>
               <li><a href="https://www.linkedin.com/in/yuke-brilliant-a7ba4519a/"target="blank">Yuke Brilliant</a></li>
-              <li><a href=" https://www.linkedin.com/in/rahul-sinha-0559691a6/" target="blank">Rahul Sinha</a></li>
+              <li><a href="https://www.linkedin.com/in/sai-harsha-vardhana-v-n-780816178/"target="blank">Sai Harsha</a></li>
               <li><a href="https://www.linkedin.com/in/devanshu-ruhela-225592192/" target="blank">Devanshu Ruhela</a></li>
-             
+              <li><a href=" https://www.linkedin.com/in/rahul-sinha-0559691a6/" target="blank">Rahul Sinha</a></li>
             </ul>
           </div>
         </div>
@@ -147,6 +155,30 @@
     </div>
 
     <script src="https://use.fontawesome.com/f7670be739.js"></script>
+    <script>
+                 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+}
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else {        document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+      </script>
 </body>
 
 </html>
