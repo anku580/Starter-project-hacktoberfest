@@ -2,9 +2,20 @@ nav {
   height: 80px !important;
 }
 
+
+.navbar{
+  /* background-color: #F1F7FA !important;
+  border-bottom: 2px solid #5b6987; */
+
+  /*Changing the code so it switches with the slider*/
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  
+
 .navbar {
   background-color: #f1f7fa !important;
   border-bottom: 2px solid #5b6987;
+
 }
 
 .nav-text {
@@ -47,9 +58,17 @@ nav {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+
+/* commented this segment because I didn't change the working of the code 
+  body {
+    background-color: white;
+} */
+
 body {
   background-color: white;
 }
+
 
 .fa {
   font-size: 120px !important;

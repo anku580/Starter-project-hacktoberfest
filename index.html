@@ -27,9 +27,9 @@
       <a class="navbar-brand" href="#">
         <img src="hacktober_logo.svg" width="50" height="50" alt="">
       </a>
-      <a class="navbar-brand nav-text" href="#">Hacktoberfest</a>
-
-      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+      <!-- <a class="navbar-brand nav-text" href="#">Hacktoberfest</a> -->
+    
+      <div class="collapse navbar-collapse justify-content-start" style="padding-left: 40px;" id="navbarTogglerDemo03">
         <ul class="navbar-nav mt-2 mr-3 mt-lg-0">
           <li class="nav-item active">
             <a class="nav-link nav-text" href="#">Home <!-- <span class="sr-only">(current)</span> --></a>
@@ -38,8 +38,8 @@
             <a class="nav-link nav-text" href="#">About</a>
           </li>
 
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
+        </ul></div><div class="collapse navbar-collapse justify-content-end" id="navbar-search-box"
+                >       <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0 nav-text search-btn" type="submit">Search</button>
         </form>
@@ -97,9 +97,14 @@
               <li><a href="https://github.com/devanshuruhela" target="blank">Devanshu Ruhela</a></li>
               <li><a href="https://github.com/chandankumar1307" target="blank">Chandan Kumar Saha</a></li>
               <li><a href="https://github.com/ThejasreeKilari" target="blank">Thejasree Kilari</a></li>
+
+               <li><a href="https://github.com/vidhichadha25" target="blank">Vidhi Chadha</a></li>
+               <li><a href="https://github.com/Sutiksh" target="blank">Sutiksh Verma</a></li>
+
               <li><a href="https://github.com/vidhichadha25" target="blank">Vidhi Chadha</a></li>
               <li><a href="https://github.com/shiddhantbehera" target="blank">Shiddhant Behera</a></li>
               <li><a href="https://github.com/Aacrity" target="blank">Akrity Pant</a></li>
+
 
 
             </ul>
@@ -156,7 +161,10 @@
               <li><a href=" https://www.linkedin.com/in/rahul-sinha-0559691a6/" target="blank">Rahul Sinha</a></li>
               <li><a href="https://www.linkedin.com/in/chandan-kumar-899842196/" target="blank">Chandan Kumar Saha</a></li>
               <li><a href="https://www.linkedin.com/in/thejasree-kilari-992333154" target="blank">Thejasree Kilari</a></li>
+
+              <li><a href="https://www.linkedin.com/in/sutikshverma27" target="blank">Sutiksh Verma</a></li>
               <li><a href="https://www.linkedin.com/in/akrity-pant-960a86128/" target="blank">Akrity Pant</a></li>
+
             </ul>
           </div>
         </div>
@@ -182,7 +190,8 @@ function switchTheme(e) {
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
     }
-    else {        document.documentElement.setAttribute('data-theme', 'light');
+    else {        
+          document.documentElement.setAttribute('data-theme', 'light');
           localStorage.setItem('theme', 'light');
     }    
 }
