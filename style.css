@@ -2,11 +2,10 @@ nav {
   height: 80px !important;
 }
 
-.navbar{
-  background-color: #F1F7FA !important;
+.navbar {
+  background-color: #f1f7fa !important;
   border-bottom: 2px solid #5b6987;
 }
-
 
 .nav-text {
   color: #5b6987 !important;
@@ -15,19 +14,24 @@ nav {
   text-transform: uppercase;
 }
 
-.nav-text:hover{
-  color: #AE6B87 !important;
+.nav-text:hover {
+  color: #ae6b87 !important;
 }
 
 .search-btn {
   height: 38px;
 }
-
-.search-btn:hover{
-  color:  #F1F7FA !important;
+.btn-outline-success {
+  border-color: #ae6b87;
 }
 
-.navbar-brand{
+.search-btn:hover {
+  color: #f1f7fa !important;
+  background-color: #ae6b87;
+  border-color: #ae6b87;
+}
+
+.navbar-brand {
   position: relative;
   left: 4%;
   padding: 10px;
@@ -44,33 +48,27 @@ nav {
   margin-bottom: 20px;
 }
 body {
-    background-color: white;
+  background-color: white;
 }
 
-
-.fa
-{
+.fa {
   font-size: 120px !important;
 }
-.fa-linkedin-square
-{
-  color: #007BB5;
+.fa-linkedin-square {
+  color: #007bb5;
 }
 
-.container-fluid
-{
+.container-fluid {
   margin-top: 100px !important;
 }
-.border
-{
+.border {
   border: 1px solid black;
   border-radius: 10px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.margin-head h3
-{
+.margin-head h3 {
   margin-bottom: 50px;
 }
 
@@ -79,16 +77,15 @@ body {
   color: white;
 }
 
-
 :root {
-  --primary-color: #302AE6;
+  --primary-color: #302ae6;
   --secondary-color: #536390;
   --font-color: #424242;
   --bg-color: #fff;
   --heading-color: #292922;
 }
 [data-theme="dark"] {
-  --primary-color: #9A97F3;
+  --primary-color: #9a97f3;
   --secondary-color: #818cab;
   --font-color: #e1e1ff;
   --bg-color: #161625;
@@ -109,14 +106,12 @@ a {
   color: var(--primary-color);
 }
 
-.theme-switch-wrapper{ 
+.theme-switch-wrapper {
   display: flex;
   align-items: center;
   float: right;
   margin-right: 7%;
   margin-top: 2%;
-
- 
 }
 .theme-switch-wrapper em {
   margin-left: 10px;
@@ -130,7 +125,7 @@ a {
 }
 
 .theme-switch input {
-  display:none;
+  display: none;
 }
 
 .slider {
@@ -141,7 +136,7 @@ a {
   position: absolute;
   right: 0;
   top: 0;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -151,12 +146,12 @@ a {
   height: 26px;
   left: 4px;
   position: absolute;
-  transition: .4s;
+  transition: 0.4s;
   width: 26px;
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
+  background-color: #ae6b87;
 }
 
 input:checked + .slider:before {
