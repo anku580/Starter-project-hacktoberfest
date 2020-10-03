@@ -257,7 +257,6 @@ main {
   .navbar {
     padding: 20px 0;
     margin: 0 20px;
-    flex-direction: column;
   }
   .nav-logo img {
     width: 75px;
