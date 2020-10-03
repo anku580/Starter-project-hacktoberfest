@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -167,8 +168,8 @@ main {
   color: var(--lightblue);
 }
 .social-media a.disable {
-  cursor: no-drop;
-  color: var(--lightblue);
+  color: var(--blue);
+  pointer-events: none;
 }
 
 .social-media a:active {
